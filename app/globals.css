@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html,
+body {
+  background-color: #f8f5ef;
+  color: #111827;
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-playfair);
+}
+
+::selection {
+  background-color: #14532d;
+  color: #f8f5ef;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f8f5ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #14532d;
+  border-radius: 999px;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #c58f2c;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.container-premium {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-premium {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-premium {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.section-pad {
+  padding-top: clamp(2.5rem, 8vw, 7rem);
+  padding-bottom: clamp(2.5rem, 8vw, 7rem);
+}
+
+.eyebrow {
+  font-family: var(--font-poppins);
+  font-size: 0.75rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #c58f2c;
+}
+
+.glass {
+  background: rgba(248, 245, 239, 0.72);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+}
+
+.glass-dark {
+  background: rgba(17, 24, 39, 0.55);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+}
+
+/* Root-barrier signature divider: represents the treated soil line beneath every section */
+.root-divider {
+  position: relative;
+  height: 3px;
+  background: repeating-linear-gradient(
+    90deg,
+    #c58f2c 0px,
+    #c58f2c 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  opacity: 0.6;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.loader-veil {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: #14532d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
