@@ -4,7 +4,7 @@ import { SITE } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How SK Termite Solutions collects, uses, and protects your information.",
+  description: "How S.K. Termite Solutions collects, uses, and protects your information.",
   alternates: { canonical: "/privacy-policy" },
   robots: { index: false, follow: true },
 };

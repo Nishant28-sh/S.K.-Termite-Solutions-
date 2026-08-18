@@ -4,7 +4,7 @@ import { SITE } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Terms & Conditions",
-  description: "Terms and conditions governing the use of SK Termite Solutions's website and services.",
+  description: "Terms and conditions governing the use of S.K. Termite Solutions's website and services.",
   alternates: { canonical: "/terms-and-conditions" },
   robots: { index: false, follow: true },
 };
@@ -40,7 +40,7 @@ const sections = [
   },
   {
     title: "8. Website Use",
-    body: "Content on this website is for general informational purposes and does not constitute a binding offer. All content, images, and branding are the property of SK Termite Solutions unless otherwise noted.",
+    body: "Content on this website is for general informational purposes and does not constitute a binding offer. All content, images, and branding are the property of S.K. Termite Solutions unless otherwise noted.",
   },
   {
     title: "9. Governing Law",

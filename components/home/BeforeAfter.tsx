@@ -84,10 +84,10 @@ export default function BeforeAfter() {
           </div>
 
           <span className="absolute top-3 left-3 sm:top-4 sm:left-4 text-[10px] sm:text-xs font-semibold px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full bg-ink/70 text-cream">
-            Before
+            After
           </span>
           <span className="absolute top-3 right-3 sm:top-4 sm:right-4 text-[10px] sm:text-xs font-semibold px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full bg-gold text-ink">
-            After
+            Before
           </span>
         </motion.div>
       </div>

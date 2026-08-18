@@ -21,7 +21,7 @@ export default function Footer() {
               <ShieldCheck size={18} />
             </span>
             <span className="font-display text-lg text-cream">
-              SK Termite Solutions
+              S.K. Termite Solutions
             </span>
           </Link>
           <p className="text-sm leading-relaxed text-cream/60 max-w-xs mx-auto">
@@ -55,7 +55,7 @@ export default function Footer() {
                 <ShieldCheck size={18} />
               </span>
               <span className="font-display text-lg text-cream">
-                SK Termite Solutions
+                S.K. Termite Solutions
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-cream/60 max-w-xs">
@@ -139,7 +139,7 @@ export default function Footer() {
 
       <div className="border-t border-cream/10">
         <div className="container-premium py-5 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-cream/50 text-center">
-          <p>© {year} SK Termite Solutions. All rights reserved.</p>
+          <p>© {year} S.K. Termite Solutions. All rights reserved.</p>
           <div className="flex gap-5">
             <Link href="/privacy-policy" className="hover:text-gold">
               Privacy Policy

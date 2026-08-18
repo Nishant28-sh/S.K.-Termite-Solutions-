@@ -1,4 +1,4 @@
-# SK Termite Solutions — Premium Business Website
+# S.K. Termite Solutions — Premium Business Website
 
 A production-ready lead-generation website built with Next.js 15 (App Router),
 React 19, TypeScript, Tailwind CSS and Framer Motion.

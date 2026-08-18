@@ -25,8 +25,8 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.domain),
   title: {
-    default: "SK Termite Solutions | Anti-Termite Treatment & Porous Pipe Installation | Dimak Ka Ilaj",
-    template: "%s | SK Termite Solutions",
+    default: "S.K. Termite Solutions | Anti-Termite Treatment & Porous Pipe Installation | Dimak Ka Ilaj",
+    template: "%s | S.K. Termite Solutions",
   },
   description:
     "Best anti-termite treatment company in India (dimak ka ilaj). Pre & post construction termite treatment, porous pipe installation, chemical injection, dimak ki dawa — for homes, builders, farm houses & commercial buildings. Call +91 89305 00699.",
@@ -65,20 +65,20 @@ export const metadata: Metadata = {
     "annual maintenance contract termite",
     "emergency termite treatment",
   ],
-  authors: [{ name: "SK Termite Solutions" }],
+  authors: [{ name: "S.K. Termite Solutions" }],
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: SITE.domain,
-    siteName: "SK Termite Solutions",
-    title: "SK Termite Solutions | Best Anti-Termite Treatment India | Dimak Ka Ilaj",
+    siteName: "S.K. Termite Solutions",
+    title: "S.K. Termite Solutions | Best Anti-Termite Treatment India | Dimak Ka Ilaj",
     description:
       "Protect your property from termites (dimak). Professional porous pipe installation & anti-termite treatment with warranty. 10+ years experience. 1000+ happy customers. Call now.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "SK Termite Solutions | Best Anti-Termite Treatment India | Dimak Ka Ilaj",
+    title: "S.K. Termite Solutions | Best Anti-Termite Treatment India | Dimak Ka Ilaj",
     description:
       "Dimak ka ilaj — Professional porous pipe installation & anti-termite solutions. 10+ years, 1000+ happy customers. All over India.",
     images: ["/og-image.jpg"],
@@ -97,7 +97,7 @@ export default function RootLayout({
       "@context": "https://schema.org",
       "@type": "PestControlService",
       name: SITE.name,
-      alternateName: ["SK Termite Solutions", "Dimak Ka Ilaj", "Termite Treatment India"],
+      alternateName: ["S.K. Termite Solutions", "Dimak Ka Ilaj", "Termite Treatment India"],
       image: `${SITE.domain}/og-image.jpg`,
       "@id": SITE.domain,
       url: SITE.domain,

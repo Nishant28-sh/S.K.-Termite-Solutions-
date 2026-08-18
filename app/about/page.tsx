@@ -8,7 +8,7 @@ import { stats } from "@/lib/data";
 import { images } from "@/lib/media";
 
 export const metadata: Metadata = {
-  title: "About SK Termite Solutions | 10+ Years Termite Control Experience",
+  title: "About S.K. Termite Solutions | 10+ Years Termite Control Experience",
   description:
     "10+ years experience in anti-termite treatment (dimak ka ilaj) — protecting homes, builders & commercial properties all over India with certified treatments and trained technicians.",
   alternates: { canonical: "/about" },
@@ -20,7 +20,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About Us"
         title="A Decade of Keeping Structures Standing"
-        description="SK Termite Solutions was built on one idea: termite protection should be engineered into a building, not patched on after the damage is visible."
+        description="S.K. Termite Solutions was built on one idea: termite protection should be engineered into a building, not patched on after the damage is visible."
       />
 
 

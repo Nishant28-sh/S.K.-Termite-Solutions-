@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const SITE = {
-  name: "SK Termite Solutions",
+  name: "S.K. Termite Solutions",
   tagline: "Pre & Post Construction Anti-Termite Protection",
   phone: "+91 89305 00699",
   phoneDisplay: "+91 89305 00699",

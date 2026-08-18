@@ -38,7 +38,7 @@ export default function Loader() {
               <ShieldCheck size={30} />
             </span>
             <span className="font-display text-cream text-lg tracking-wide">
-              SK Termite Solutions
+              S.K. Termite Solutions
             </span>
           </motion.div>
         </motion.div>
