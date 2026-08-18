@@ -110,7 +110,7 @@ export default function TreatmentFinder() {
             Not Sure Which Treatment You Need?
           </h2>
           <p className="mt-3 sm:mt-4 text-sm sm:text-base text-ink/60 leading-relaxed">
-            Answer three quick questions and we'll point you to the right
+            Answer three quick questions and we&apos;ll point you to the right
             starting point.
           </p>
         </div>

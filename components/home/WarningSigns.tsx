@@ -27,7 +27,7 @@ export default function WarningSigns() {
             Not Sure If You Have Termites?
           </h2>
           <p className="mt-3 sm:mt-4 text-sm sm:text-base text-ink/60 leading-relaxed">
-            Termite damage is often invisible until it's significant. These
+            Termite damage is often invisible until it&apos;s significant. These
             are the signs worth checking for around your property.
           </p>
         </div>
@@ -65,7 +65,7 @@ export default function WarningSigns() {
             </h3>
             <p className="text-sm text-cream/70 mt-1.5 max-w-md">
               Send us a photo on WhatsApp and our team can tell you what
-              you're looking at and what to do next.
+              you&apos;re looking at and what to do next.
             </p>
           </div>
           <Button
