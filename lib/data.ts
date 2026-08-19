@@ -371,10 +371,12 @@ export const warningSigns: WarningSign[] = [
 export type ServiceArea = { name: string; note: string };
 
 export const serviceAreas: ServiceArea[] = [
-  { name: "North India", note: "Delhi NCR, Haryana, Punjab, UP & Rajasthan" },
-  { name: "South India", note: "Karnataka, Tamil Nadu, Kerala & Telangana" },
-  { name: "West India", note: "Maharashtra, Gujarat & Madhya Pradesh" },
-  { name: "East India", note: "West Bengal, Bihar, Odisha & Jharkhand" },
+  { name: "Rewari", note: "Head Office & Same-Day Emergency Service" },
+  { name: "Bhiwani", note: "Villas, Homes & Pre-Construction Projects" },
+  { name: "Rohtak", note: "Commercial, Residential & AMC Solutions" },
+  { name: "Hisar", note: "Complete Foundation & Post-Construction Treatment" },
+  { name: "Gurugram & Delhi NCR", note: "High-Rise Apartments, Builder Sites & Offices" },
+  { name: "All Over India", note: "Pan-India Coverage for Commercial & Residential Projects" },
 ];
 
 export type FAQItem = { question: string; answer: string };
@@ -441,8 +443,13 @@ export const faqs: FAQItem[] = [
       "White ants and termites (dimak) are actually the same pest — termites are commonly called 'white ants' in India because of their pale colour. They are not actually ants but a completely different insect that feeds on wood and cellulose. The treatment for white ants/termites is the same anti-termite chemical treatment that we provide.",
   },
   {
-    question: "Kya termite treatment se ghar ki warranty milti hai?",
+    question: "Kya aap Rewari, Bhiwani, Rohtak aur Hisar mein termite / dimak solution provide karte hain?",
     answer:
-      "Haan, har treatment ke saath written service warranty milti hai. Warranty period treatment type aur building par depend karta hai. Annual Maintenance Contract (AMC) lene se warranty valid rehti hai aur regular inspections bhi hoti hain. Quotation mein warranty details clearly mentioned hoti hain.",
+      "Haan! S.K. Termite Solutions Rewari (Head Office), Bhiwani, Rohtak, Hisar, Gurugram aur pure Haryana sahit all over India mein professional anti-termite treatment aur porous pipe installation services provide karta hai. Hum same-day / next-day site inspection ke liye available hain.",
+  },
+  {
+    question: "Which is the best termite solution and dimak treatment in Haryana?",
+    answer:
+      "S.K. Termite Solutions provides the best anti-termite chemical treatment and porous pipe installation in Haryana. We use certified termiticides with multi-year warranties for homes, villas, commercial buildings, and builder sites in Rewari, Bhiwani, Rohtak, Hisar, and Delhi NCR.",
   },
 ];
