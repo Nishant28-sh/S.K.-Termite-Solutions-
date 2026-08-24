@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/utils";
+import { locationsData } from "@/lib/locations";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes: {
@@ -18,7 +19,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/terms-and-conditions", changeFrequency: "yearly", priority: 0.2 },
   ];
 
-  return routes.map((route) => ({
+  const locationRoutes = Object.keys(locationsData).map((slug) => ({
+    path: `/locations/${slug}`,
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
+  }));
+
+  return [...routes, ...locationRoutes].map((route) => ({
     url: `${SITE.domain}${route.path}`,
     lastModified: new Date(),
     changeFrequency: route.changeFrequency,
